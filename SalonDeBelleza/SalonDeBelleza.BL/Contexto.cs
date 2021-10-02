@@ -10,7 +10,7 @@ namespace SalonDeBelleza.BL
 {
     public class Contexto: DbContext
     {
-        public Contexto(): base(@"Data Source=(LocalDb)\MSSQLLocalDB;AttachDBFilename=C:\Users\bryan\Desktop\informatica\L4\repo\SalonDeBelleza\SalonDeBelleza\DB\SalonDeBellezaDB.mdf")
+        public Contexto(): base(@"Data Source=(LocalDb)\MSSQLLocalDB;AttachDBFilename=C:\Users\James\Desktop\Salon de belleza\SalonDeBelleza\DB\SalonDeBellezaDB.mdf")
         {
             
         }
