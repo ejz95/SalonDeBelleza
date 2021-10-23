@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SalonDeBelleza.Win
+namespace SalondeBelleza.Win
 {
     public partial class Form1 : Form
     {
@@ -17,10 +17,9 @@ namespace SalonDeBelleza.Win
         {
             InitializeComponent();
             var productosBL = new ProductosBL();
-            var listadeProductos = productosBL.ObtenerProductos();
+            var ListadeProductos = productosBL.ObtenerProductos();
 
-            listadeProductosBindingSource.DataSource = listadeProductos;
+            listadeProductosBindingSource.DataSource = ListadeProductos;
         }
-
     }
 }
