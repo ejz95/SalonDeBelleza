@@ -169,7 +169,7 @@
             </div>
         </div>
         <div class="row">
-            @foreach (var producto in Model.Where(r => r.Categoria.Descripcion == "Cosmeticos").Take(4)
+            @foreach (var producto in Model.Where(r => r.Categoria.Id >= 1).Take(3)
             .OrderBy(r => Guid.NewGuid()))
             {
                 <div class="col-md-4 margin_top_30">
@@ -199,7 +199,7 @@
                     <p>(Incluye tinte, lavado, tratamiento, corte y planchado) </p>
                 </div>
                 <div class="full margin_top_30">
-                    <a class="main_bt" href="#">Agendar cita ahora</a>
+                    <a class="main_bt" href="/Ofertas/Index">Agendar cita ahora</a>
                 </div>
             </div>
             <div class="col-md-6 margin_top_30 padding_right_0">
