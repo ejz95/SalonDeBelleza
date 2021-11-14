@@ -22,6 +22,8 @@ namespace SalonDeBelleza.BL
         [MaxLength(20,ErrorMessage = "Ingrese un maximo de 20 caracteres")]
         public string Descripcion { get; set; }
 
+       
+
         [Required(ErrorMessage = "Ingrese el precio")]
         [Range(0,3000, ErrorMessage = "Ingrese un precio entre 0 y 3000")]
         public double Precio { get; set; }
