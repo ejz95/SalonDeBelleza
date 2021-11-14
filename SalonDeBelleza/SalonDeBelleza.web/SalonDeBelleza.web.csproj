@@ -248,9 +248,17 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ColoracionController.cs" />
+    <Compile Include="Controllers\CosmeticosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JazzcuziController.cs" />
+    <Compile Include="Controllers\MasajesController.cs" />
+    <Compile Include="Controllers\OfertasController.cs" />
+    <Compile Include="Controllers\PlanchadoController.cs" />
+    <Compile Include="Controllers\SaunaController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Controllers\ShopSingleController.cs" />
+    <Compile Include="Controllers\TintesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -275,6 +283,22 @@
     <Content Include="Views\Shop\Index.cshtml" />
     <Content Include="Views\ShopSingle\Index.cshtml" />
     <Content Include="Views\Shared\_Layout_ShopSingle.cshtml" />
+    <Content Include="Views\Shared\_Layout_Shop_Cosmeticos.cshtml" />
+    <Content Include="Views\Shared\_Layout_Shop_Jazzcuzi.cshtml" />
+    <Content Include="Views\Shared\_Layout_Shop_Tintes.cshtml" />
+    <Content Include="Views\Shared\_Layout_Shop_Coloracion.cshtml" />
+    <Content Include="Views\Shared\_Layout_Shop_Planchado.cshtml" />
+    <Content Include="Views\Shared\_Layout_Shop_Masajes.cshtml" />
+    <Content Include="Views\Shared\_Layout_Shop_Sauna.cshtml" />
+    <Content Include="Views\Shared\_Layout_Shop_Ofertas.cshtml" />
+    <Content Include="Views\Tintes\Index.cshtml" />
+    <Content Include="Views\Sauna\Index.cshtml" />
+    <Content Include="Views\Planchado\Index.cshtml" />
+    <Content Include="Views\Ofertas\Index.cshtml" />
+    <Content Include="Views\Jazzcuzi\Index.cshtml" />
+    <Content Include="Views\Cosmeticos\Index.cshtml" />
+    <Content Include="Views\Coloracion\Index.cshtml" />
+    <Content Include="Views\Masajes\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
