@@ -19,19 +19,16 @@ namespace SalonDeBelleza.BL
         [Display(Name = "Descripcion")]
         [Required(ErrorMessage = "Ingrese la descripcion")]
         [MinLength(3, ErrorMessage = "Ingrese  minimo 3 caracteres")]
-        [MaxLength(20,ErrorMessage = "Ingrese un maximo de 20 caracteres")]
         public string Descripcion { get; set; }
 
         [Display(Name = "Articulo")]
         [Required(ErrorMessage = "Ingrese un nombre para el producto")]
         [MinLength(3, ErrorMessage = "Ingrese  minimo 3 caracteres")]
-        [MaxLength(20, ErrorMessage = "Ingrese un maximo de 20 caracteres")]
         public string Art { get; set; }
 
         [Display(Name = "Marca")]
         [Required(ErrorMessage = "Ingrese la descripcion")]
         [MinLength(3, ErrorMessage = "Ingrese  minimo 3 caracteres")]
-        [MaxLength(20, ErrorMessage = "Ingrese un maximo de 20 caracteres")]
         public string Marca{ get; set; }
 
        
@@ -54,15 +51,6 @@ namespace SalonDeBelleza.BL
          
         [Display(Name = "Imagen4")]
         public string UrlImagen4 { get; set; }
-
-        [Display(Name = "Imagen5")]
-        public string UrlImagen5 { get; set; }
-
-        [Display(Name = "Imagen6")]
-        public string UrlImagen6 { get; set; }
-
-
-
         //Para las imagenes
 
 

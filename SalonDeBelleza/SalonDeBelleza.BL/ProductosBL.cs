@@ -53,6 +53,11 @@ namespace SalonDeBelleza.BL
                 productoExistente.CategoriaId = producto.CategoriaId;
                 productoExistente.Precio = producto.Precio;
                 productoExistente.UrlImagen = producto.UrlImagen;
+                productoExistente.UrlImagen = producto.UrlImagen;
+                productoExistente.UrlImagen = producto.UrlImagen;
+                productoExistente.UrlImagen = producto.UrlImagen;
+                
+               
             }
 
             _contexto.SaveChanges();
