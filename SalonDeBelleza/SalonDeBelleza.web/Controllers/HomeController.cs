@@ -18,5 +18,8 @@ namespace SalondeBelleza.web.Controllers
             ViewBag.adminWebsiteUrl = ConfigurationManager.AppSettings["adminWebSiteUrl"];
             return View(listadeProductos);
         }
+
+
+
     }
 }

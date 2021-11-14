@@ -90,8 +90,6 @@ namespace SalondeBelleza.WebAdmin.Controllers
                     producto.UrlImagen = GuardarImagen(imagen);
                 }
                 _productosBL.GuardarProducto(producto);
-
-
                 return RedirectToAction("Index");
             }
 
